@@ -37,4 +37,14 @@ var (
 			Foreground(lipgloss.Color(ColorLavender)).
 			Bold(true).
 			PaddingBottom(1)
+
+	SelectedTitle = lipgloss.NewStyle().
+			Border(lipgloss.NormalBorder(), false, false, false, true).
+			BorderForeground(lipgloss.Color(ColorMauve)).
+			Foreground(lipgloss.Color(ColorMauve)).
+			Padding(0, 0, 0, 1)
+
+	SelectedDesc = lipgloss.NewStyle().
+			Foreground(lipgloss.Color(ColorPink)).
+			Padding(0, 0, 0, 2)
 )
